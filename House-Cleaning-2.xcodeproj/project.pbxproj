@@ -1,0 +1,579 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A436EAE5286D3C65003A1CEF /* House_Cleaning_2App.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EAE4286D3C65003A1CEF /* House_Cleaning_2App.swift */; };
+		A436EAE7286D3C65003A1CEF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EAE6286D3C65003A1CEF /* ContentView.swift */; };
+		A436EAE9286D3C70003A1CEF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A436EAE8286D3C70003A1CEF /* Assets.xcassets */; };
+		A436EAEC286D3C70003A1CEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A436EAEB286D3C70003A1CEF /* Preview Assets.xcassets */; };
+		A436EAF7286D3C70003A1CEF /* House_Cleaning_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EAF6286D3C70003A1CEF /* House_Cleaning_2Tests.swift */; };
+		A436EB02286D3C70003A1CEF /* House_Cleaning_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB01286D3C70003A1CEF /* House_Cleaning_2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A436EAF3286D3C70003A1CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A436EAD9286D3C65003A1CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A436EAE0286D3C65003A1CEF;
+			remoteInfo = "House-Cleaning-2";
+		};
+		A436EAFE286D3C70003A1CEF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A436EAD9286D3C65003A1CEF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A436EAE0286D3C65003A1CEF;
+			remoteInfo = "House-Cleaning-2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A436EAE1286D3C65003A1CEF /* House-Cleaning-2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "House-Cleaning-2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A436EAE4286D3C65003A1CEF /* House_Cleaning_2App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House_Cleaning_2App.swift; sourceTree = "<group>"; };
+		A436EAE6286D3C65003A1CEF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A436EAE8286D3C70003A1CEF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A436EAEB286D3C70003A1CEF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A436EAED286D3C70003A1CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A436EAF2286D3C70003A1CEF /* House-Cleaning-2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "House-Cleaning-2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A436EAF6286D3C70003A1CEF /* House_Cleaning_2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House_Cleaning_2Tests.swift; sourceTree = "<group>"; };
+		A436EAF8286D3C70003A1CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A436EAFD286D3C70003A1CEF /* House-Cleaning-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "House-Cleaning-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A436EB01286D3C70003A1CEF /* House_Cleaning_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House_Cleaning_2UITests.swift; sourceTree = "<group>"; };
+		A436EB03286D3C70003A1CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A436EADE286D3C65003A1CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A436EAEF286D3C70003A1CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A436EAFA286D3C70003A1CEF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A436EAD8286D3C65003A1CEF = {
+			isa = PBXGroup;
+			children = (
+				A436EAE3286D3C65003A1CEF /* House-Cleaning-2 */,
+				A436EAF5286D3C70003A1CEF /* House-Cleaning-2Tests */,
+				A436EB00286D3C70003A1CEF /* House-Cleaning-2UITests */,
+				A436EAE2286D3C65003A1CEF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A436EAE2286D3C65003A1CEF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A436EAE1286D3C65003A1CEF /* House-Cleaning-2.app */,
+				A436EAF2286D3C70003A1CEF /* House-Cleaning-2Tests.xctest */,
+				A436EAFD286D3C70003A1CEF /* House-Cleaning-2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A436EAE3286D3C65003A1CEF /* House-Cleaning-2 */ = {
+			isa = PBXGroup;
+			children = (
+				A436EAE4286D3C65003A1CEF /* House_Cleaning_2App.swift */,
+				A436EAE6286D3C65003A1CEF /* ContentView.swift */,
+				A436EAE8286D3C70003A1CEF /* Assets.xcassets */,
+				A436EAED286D3C70003A1CEF /* Info.plist */,
+				A436EAEA286D3C70003A1CEF /* Preview Content */,
+			);
+			path = "House-Cleaning-2";
+			sourceTree = "<group>";
+		};
+		A436EAEA286D3C70003A1CEF /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A436EAEB286D3C70003A1CEF /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A436EAF5286D3C70003A1CEF /* House-Cleaning-2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A436EAF6286D3C70003A1CEF /* House_Cleaning_2Tests.swift */,
+				A436EAF8286D3C70003A1CEF /* Info.plist */,
+			);
+			path = "House-Cleaning-2Tests";
+			sourceTree = "<group>";
+		};
+		A436EB00286D3C70003A1CEF /* House-Cleaning-2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				A436EB01286D3C70003A1CEF /* House_Cleaning_2UITests.swift */,
+				A436EB03286D3C70003A1CEF /* Info.plist */,
+			);
+			path = "House-Cleaning-2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A436EAE0286D3C65003A1CEF /* House-Cleaning-2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A436EB06286D3C70003A1CEF /* Build configuration list for PBXNativeTarget "House-Cleaning-2" */;
+			buildPhases = (
+				A436EADD286D3C65003A1CEF /* Sources */,
+				A436EADE286D3C65003A1CEF /* Frameworks */,
+				A436EADF286D3C65003A1CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "House-Cleaning-2";
+			productName = "House-Cleaning-2";
+			productReference = A436EAE1286D3C65003A1CEF /* House-Cleaning-2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A436EAF1286D3C70003A1CEF /* House-Cleaning-2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A436EB09286D3C70003A1CEF /* Build configuration list for PBXNativeTarget "House-Cleaning-2Tests" */;
+			buildPhases = (
+				A436EAEE286D3C70003A1CEF /* Sources */,
+				A436EAEF286D3C70003A1CEF /* Frameworks */,
+				A436EAF0286D3C70003A1CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A436EAF4286D3C70003A1CEF /* PBXTargetDependency */,
+			);
+			name = "House-Cleaning-2Tests";
+			productName = "House-Cleaning-2Tests";
+			productReference = A436EAF2286D3C70003A1CEF /* House-Cleaning-2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A436EAFC286D3C70003A1CEF /* House-Cleaning-2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A436EB0C286D3C70003A1CEF /* Build configuration list for PBXNativeTarget "House-Cleaning-2UITests" */;
+			buildPhases = (
+				A436EAF9286D3C70003A1CEF /* Sources */,
+				A436EAFA286D3C70003A1CEF /* Frameworks */,
+				A436EAFB286D3C70003A1CEF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A436EAFF286D3C70003A1CEF /* PBXTargetDependency */,
+			);
+			name = "House-Cleaning-2UITests";
+			productName = "House-Cleaning-2UITests";
+			productReference = A436EAFD286D3C70003A1CEF /* House-Cleaning-2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A436EAD9286D3C65003A1CEF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A436EAE0286D3C65003A1CEF = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A436EAF1286D3C70003A1CEF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A436EAE0286D3C65003A1CEF;
+					};
+					A436EAFC286D3C70003A1CEF = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A436EAE0286D3C65003A1CEF;
+					};
+				};
+			};
+			buildConfigurationList = A436EADC286D3C65003A1CEF /* Build configuration list for PBXProject "House-Cleaning-2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A436EAD8286D3C65003A1CEF;
+			productRefGroup = A436EAE2286D3C65003A1CEF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A436EAE0286D3C65003A1CEF /* House-Cleaning-2 */,
+				A436EAF1286D3C70003A1CEF /* House-Cleaning-2Tests */,
+				A436EAFC286D3C70003A1CEF /* House-Cleaning-2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A436EADF286D3C65003A1CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A436EAEC286D3C70003A1CEF /* Preview Assets.xcassets in Resources */,
+				A436EAE9286D3C70003A1CEF /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A436EAF0286D3C70003A1CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A436EAFB286D3C70003A1CEF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A436EADD286D3C65003A1CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A436EAE7286D3C65003A1CEF /* ContentView.swift in Sources */,
+				A436EAE5286D3C65003A1CEF /* House_Cleaning_2App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A436EAEE286D3C70003A1CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A436EAF7286D3C70003A1CEF /* House_Cleaning_2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A436EAF9286D3C70003A1CEF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A436EB02286D3C70003A1CEF /* House_Cleaning_2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A436EAF4286D3C70003A1CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A436EAE0286D3C65003A1CEF /* House-Cleaning-2 */;
+			targetProxy = A436EAF3286D3C70003A1CEF /* PBXContainerItemProxy */;
+		};
+		A436EAFF286D3C70003A1CEF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A436EAE0286D3C65003A1CEF /* House-Cleaning-2 */;
+			targetProxy = A436EAFE286D3C70003A1CEF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A436EB04286D3C70003A1CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A436EB05286D3C70003A1CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A436EB07286D3C70003A1CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"House-Cleaning-2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "House-Cleaning-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisVanBuren.House-Cleaning-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A436EB08286D3C70003A1CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"House-Cleaning-2/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "House-Cleaning-2/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisVanBuren.House-Cleaning-2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A436EB0A286D3C70003A1CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "House-Cleaning-2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisVanBuren.House-Cleaning-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/House-Cleaning-2.app/House-Cleaning-2";
+			};
+			name = Debug;
+		};
+		A436EB0B286D3C70003A1CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "House-Cleaning-2Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisVanBuren.House-Cleaning-2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/House-Cleaning-2.app/House-Cleaning-2";
+			};
+			name = Release;
+		};
+		A436EB0D286D3C70003A1CEF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "House-Cleaning-2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisVanBuren.House-Cleaning-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "House-Cleaning-2";
+			};
+			name = Debug;
+		};
+		A436EB0E286D3C70003A1CEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "House-Cleaning-2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ChrisVanBuren.House-Cleaning-2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "House-Cleaning-2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A436EADC286D3C65003A1CEF /* Build configuration list for PBXProject "House-Cleaning-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A436EB04286D3C70003A1CEF /* Debug */,
+				A436EB05286D3C70003A1CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A436EB06286D3C70003A1CEF /* Build configuration list for PBXNativeTarget "House-Cleaning-2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A436EB07286D3C70003A1CEF /* Debug */,
+				A436EB08286D3C70003A1CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A436EB09286D3C70003A1CEF /* Build configuration list for PBXNativeTarget "House-Cleaning-2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A436EB0A286D3C70003A1CEF /* Debug */,
+				A436EB0B286D3C70003A1CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A436EB0C286D3C70003A1CEF /* Build configuration list for PBXNativeTarget "House-Cleaning-2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A436EB0D286D3C70003A1CEF /* Debug */,
+				A436EB0E286D3C70003A1CEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A436EAD9286D3C65003A1CEF /* Project object */;
+}
