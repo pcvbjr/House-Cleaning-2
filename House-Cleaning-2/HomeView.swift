@@ -8,9 +8,7 @@
 import SwiftUI
 
 struct HomeView: View {
-	
-	
-	@ObservedObject var datas = ReadData()
+	@ObservedObject var datas: ReadData
 	
 	
 	var body: some View {
@@ -63,6 +61,7 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
 	static var previews: some View {
-		HomeView()
+		var datas = ReadData()
+		HomeView(datas: datas)
 	}
 }

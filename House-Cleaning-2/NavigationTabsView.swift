@@ -8,17 +8,17 @@
 import SwiftUI
 
 struct NavigationTabsView: View {
-	@ObservedObject var datas = ReadData()
+	@StateObject var datas = ReadData()
 
 	var body: some View {
 
 			TabView(selection: .constant(1)) {
-				HomeView()
+				HomeView(datas: datas)
 					.tabItem {
 						Image(systemName: "book.fill")
 					}
 					.tag(1)
-				DetailView()
+				DetailView(datas: datas)
 					.tabItem {
 						Image(systemName: "books.vertical.fill")
 					}
