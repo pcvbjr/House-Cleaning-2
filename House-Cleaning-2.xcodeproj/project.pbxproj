@@ -26,6 +26,9 @@
 		A436EB4C286D4179003A1CEF /* buildArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB4B286D4179003A1CEF /* buildArray.swift */; };
 		A436EB51286D419C003A1CEF /* dateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB50286D419C003A1CEF /* dateFunctions.swift */; };
 		A4C8FA442870A10E00400B07 /* test_json.json in Resources */ = {isa = PBXBuildFile; fileRef = A4C8FA432870A10E00400B07 /* test_json.json */; };
+		A4C8FA4E2870B3B600400B07 /* SimpleOverdueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8FA4D2870B3B600400B07 /* SimpleOverdueView.swift */; };
+		A4C8FA562870B53C00400B07 /* SimpleDueTodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8FA552870B53C00400B07 /* SimpleDueTodayView.swift */; };
+		A4C8FA5B2870B5BD00400B07 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4C8FA5A2870B5BD00400B07 /* NoItemsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		A436EB4B286D4179003A1CEF /* buildArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildArray.swift; sourceTree = "<group>"; };
 		A436EB50286D419C003A1CEF /* dateFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateFunctions.swift; sourceTree = "<group>"; };
 		A4C8FA432870A10E00400B07 /* test_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test_json.json; sourceTree = "<group>"; };
+		A4C8FA4D2870B3B600400B07 /* SimpleOverdueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleOverdueView.swift; sourceTree = "<group>"; };
+		A4C8FA552870B53C00400B07 /* SimpleDueTodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleDueTodayView.swift; sourceTree = "<group>"; };
+		A4C8FA5A2870B5BD00400B07 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +145,9 @@
 				A436EB46286D4142003A1CEF /* Tasks.swift */,
 				A436EB4B286D4179003A1CEF /* buildArray.swift */,
 				A436EB50286D419C003A1CEF /* dateFunctions.swift */,
+				A4C8FA4D2870B3B600400B07 /* SimpleOverdueView.swift */,
+				A4C8FA552870B53C00400B07 /* SimpleDueTodayView.swift */,
+				A4C8FA5A2870B5BD00400B07 /* NoItemsView.swift */,
 			);
 			path = "House-Cleaning-2";
 			sourceTree = "<group>";
@@ -308,16 +317,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				A436EB38286D40AC003A1CEF /* HomeView.swift in Sources */,
+				A4C8FA4E2870B3B600400B07 /* SimpleOverdueView.swift in Sources */,
 				A436EB1A286D3F86003A1CEF /* CheckboxView.swift in Sources */,
 				A436EB1F286D3FD9003A1CEF /* DetailView.swift in Sources */,
 				A436EAE7286D3C65003A1CEF /* ContentView.swift in Sources */,
 				A436EB47286D4142003A1CEF /* Tasks.swift in Sources */,
 				A436EB51286D419C003A1CEF /* dateFunctions.swift in Sources */,
+				A4C8FA562870B53C00400B07 /* SimpleDueTodayView.swift in Sources */,
 				A436EB4C286D4179003A1CEF /* buildArray.swift in Sources */,
 				A436EB29286D402F003A1CEF /* DueOtherListItemView.swift in Sources */,
 				A436EB24286D400B003A1CEF /* DueNext7DaysListItemView.swift in Sources */,
 				A436EB42286D4124003A1CEF /* OverdueListItemView.swift in Sources */,
 				A436EB2E286D405D003A1CEF /* DueTodayListItemVIew.swift in Sources */,
+				A4C8FA5B2870B5BD00400B07 /* NoItemsView.swift in Sources */,
 				A436EB33286D407D003A1CEF /* DynoListView.swift in Sources */,
 				A436EB3D286D40FA003A1CEF /* NavigationTabsView.swift in Sources */,
 				A436EAE5286D3C65003A1CEF /* House_Cleaning_2App.swift in Sources */,

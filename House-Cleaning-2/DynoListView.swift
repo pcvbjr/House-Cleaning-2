@@ -10,7 +10,6 @@ import Foundation
 
 struct DynoListView: View {
 	@ObservedObject var datas = ReadData()
-	@State var overdue = false
 
 
 	var body: some View {

@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct NavigationTabsView: View {
+	@ObservedObject var datas = ReadData()
+
 	var body: some View {
 
 			TabView(selection: .constant(1)) {

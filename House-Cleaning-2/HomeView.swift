@@ -8,21 +8,57 @@
 import SwiftUI
 
 struct HomeView: View {
-	//@State var checked: [Bool] = [false, false, true, false, true]
 	
-
 	
-	// TODO: dynamically make $checked list for each element in json file, do this outside of views
+	@ObservedObject var datas = ReadData()
 	
-
 	
-
 	var body: some View {
 		
-		DynoListView()
 		
 		
+		//		DynoListView()
+		
+		//Text("DetailView page")
+		var homeArray = buildArray(status: ["Due: overdue", "Due: today"])
+		var length = homeArray.count
+		//        VStack {
+		//            ForEach(dueOtherArray) { user in
+		//                    Text(user.name)
+		//            }
+		//        }
+		
+		switch length > 0 {
+		case true:
+			List(homeArray){ user in
+				
+				let userStatus = user.status
+				
+				switch userStatus {
+				
+				// if the case "Due: overdue" is met, use the corresponding View
+				case "Due: overdue":
+					SimpleOverdueView(checked: $datas.checked[user.id-1], id: user.id, duration: user.duration, datas: datas, name: user.name, date: user.date)
+				// if the case "Due: overdue" is not met, use the case "Due: today" and its corresponding view
+				case "Due: today":
+					SimpleDueTodayView(checked: $datas.checked[user.id-1], id: user.id, duration: user.duration, datas: datas, name: user.name, date: user.date)
+				// if neither of the cases above are met, show the default
+				
+				default:
+					Text("Error in list")
+				}
+				
+				
+			}
+		default:
+		NoItemsView()
+		}
+
 	}
+	
+	
+	
+	
 }
 
 struct HomeView_Previews: PreviewProvider {
