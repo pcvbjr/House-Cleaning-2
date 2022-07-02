@@ -9,7 +9,8 @@ import SwiftUI
 
 struct NoItemsView: View {
     var body: some View {
-        Text("Lucky you! No items were found for your current search. Try a different filter or check back another day for your next set of cleaning tasks.")
+		Text("Lucky you! No items were found for your current search. Try a different filter or check back another day for your next set of cleaning tasks.")
+			.padding(.horizontal)
     }
 }
 

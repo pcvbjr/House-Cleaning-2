@@ -26,30 +26,41 @@ struct HomeView: View {
 		//            }
 		//        }
 		
-		switch length > 0 {
-		case true:
-			List(homeArray){ user in
+		VStack {
+			
+			Text("Welcome home, fancy pants!")
+				.font(.title2)
+				.bold()
+				.padding(.all, 20.0)
+				.multilineTextAlignment(.leading)
+			
+			Spacer()
+			switch length > 0 {
+			case true:
+				List(homeArray){ user in
+					
+					let userStatus = user.status
+					
+					switch userStatus {
+					
+					// if the case "Due: overdue" is met, use the corresponding View
+					case "Due: overdue":
+						SimpleOverdueView(checked: $datas.checked[user.id-1], id: user.id, duration: user.duration, datas: datas, name: user.name, date: user.date)
+					// if the case "Due: overdue" is not met, use the case "Due: today" and its corresponding view
+					case "Due: today":
+						SimpleDueTodayView(checked: $datas.checked[user.id-1], id: user.id, duration: user.duration, datas: datas, name: user.name, date: user.date)
+					// if neither of the cases above are met, show the default
+					
+					default:
+						Text("Error in list")
+					}
+					
 				
-				let userStatus = user.status
-				
-				switch userStatus {
-				
-				// if the case "Due: overdue" is met, use the corresponding View
-				case "Due: overdue":
-					SimpleOverdueView(checked: $datas.checked[user.id-1], id: user.id, duration: user.duration, datas: datas, name: user.name, date: user.date)
-				// if the case "Due: overdue" is not met, use the case "Due: today" and its corresponding view
-				case "Due: today":
-					SimpleDueTodayView(checked: $datas.checked[user.id-1], id: user.id, duration: user.duration, datas: datas, name: user.name, date: user.date)
-				// if neither of the cases above are met, show the default
-				
-				default:
-					Text("Error in list")
 				}
-				
-				
+			default:
+			NoItemsView()
 			}
-		default:
-		NoItemsView()
+			Spacer()
 		}
 
 	}

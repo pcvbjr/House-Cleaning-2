@@ -12,7 +12,7 @@ struct NavigationTabsView: View {
 
 	var body: some View {
 
-			TabView(selection: .constant(1)) {
+			TabView() {
 				HomeView(datas: datas)
 					.tabItem {
 						Image(systemName: "book.fill")
