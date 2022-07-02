@@ -13,6 +13,19 @@
 		A436EAEC286D3C70003A1CEF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A436EAEB286D3C70003A1CEF /* Preview Assets.xcassets */; };
 		A436EAF7286D3C70003A1CEF /* House_Cleaning_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EAF6286D3C70003A1CEF /* House_Cleaning_2Tests.swift */; };
 		A436EB02286D3C70003A1CEF /* House_Cleaning_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB01286D3C70003A1CEF /* House_Cleaning_2UITests.swift */; };
+		A436EB1A286D3F86003A1CEF /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB19286D3F86003A1CEF /* CheckboxView.swift */; };
+		A436EB1F286D3FD9003A1CEF /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB1E286D3FD9003A1CEF /* DetailView.swift */; };
+		A436EB24286D400B003A1CEF /* DueNext7DaysListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB23286D400B003A1CEF /* DueNext7DaysListItemView.swift */; };
+		A436EB29286D402F003A1CEF /* DueOtherListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB28286D402F003A1CEF /* DueOtherListItemView.swift */; };
+		A436EB2E286D405D003A1CEF /* DueTodayListItemVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB2D286D405D003A1CEF /* DueTodayListItemVIew.swift */; };
+		A436EB33286D407D003A1CEF /* DynoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB32286D407D003A1CEF /* DynoListView.swift */; };
+		A436EB38286D40AC003A1CEF /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB37286D40AC003A1CEF /* HomeView.swift */; };
+		A436EB3D286D40FA003A1CEF /* NavigationTabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB3C286D40FA003A1CEF /* NavigationTabsView.swift */; };
+		A436EB42286D4124003A1CEF /* OverdueListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB41286D4124003A1CEF /* OverdueListItemView.swift */; };
+		A436EB47286D4142003A1CEF /* Tasks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB46286D4142003A1CEF /* Tasks.swift */; };
+		A436EB4C286D4179003A1CEF /* buildArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB4B286D4179003A1CEF /* buildArray.swift */; };
+		A436EB51286D419C003A1CEF /* dateFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436EB50286D419C003A1CEF /* dateFunctions.swift */; };
+		A4C8FA442870A10E00400B07 /* test_json.json in Resources */ = {isa = PBXBuildFile; fileRef = A4C8FA432870A10E00400B07 /* test_json.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +58,19 @@
 		A436EAFD286D3C70003A1CEF /* House-Cleaning-2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "House-Cleaning-2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A436EB01286D3C70003A1CEF /* House_Cleaning_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House_Cleaning_2UITests.swift; sourceTree = "<group>"; };
 		A436EB03286D3C70003A1CEF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A436EB19286D3F86003A1CEF /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
+		A436EB1E286D3FD9003A1CEF /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A436EB23286D400B003A1CEF /* DueNext7DaysListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueNext7DaysListItemView.swift; sourceTree = "<group>"; };
+		A436EB28286D402F003A1CEF /* DueOtherListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueOtherListItemView.swift; sourceTree = "<group>"; };
+		A436EB2D286D405D003A1CEF /* DueTodayListItemVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DueTodayListItemVIew.swift; sourceTree = "<group>"; };
+		A436EB32286D407D003A1CEF /* DynoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynoListView.swift; sourceTree = "<group>"; };
+		A436EB37286D40AC003A1CEF /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A436EB3C286D40FA003A1CEF /* NavigationTabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationTabsView.swift; sourceTree = "<group>"; };
+		A436EB41286D4124003A1CEF /* OverdueListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverdueListItemView.swift; sourceTree = "<group>"; };
+		A436EB46286D4142003A1CEF /* Tasks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tasks.swift; sourceTree = "<group>"; };
+		A436EB4B286D4179003A1CEF /* buildArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = buildArray.swift; sourceTree = "<group>"; };
+		A436EB50286D419C003A1CEF /* dateFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateFunctions.swift; sourceTree = "<group>"; };
+		A4C8FA432870A10E00400B07 /* test_json.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = test_json.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +124,21 @@
 				A436EAE4286D3C65003A1CEF /* House_Cleaning_2App.swift */,
 				A436EAE6286D3C65003A1CEF /* ContentView.swift */,
 				A436EAE8286D3C70003A1CEF /* Assets.xcassets */,
+				A436EB12286D3CBD003A1CEF /* Resources */,
 				A436EAED286D3C70003A1CEF /* Info.plist */,
 				A436EAEA286D3C70003A1CEF /* Preview Content */,
+				A436EB19286D3F86003A1CEF /* CheckboxView.swift */,
+				A436EB1E286D3FD9003A1CEF /* DetailView.swift */,
+				A436EB23286D400B003A1CEF /* DueNext7DaysListItemView.swift */,
+				A436EB28286D402F003A1CEF /* DueOtherListItemView.swift */,
+				A436EB2D286D405D003A1CEF /* DueTodayListItemVIew.swift */,
+				A436EB32286D407D003A1CEF /* DynoListView.swift */,
+				A436EB37286D40AC003A1CEF /* HomeView.swift */,
+				A436EB3C286D40FA003A1CEF /* NavigationTabsView.swift */,
+				A436EB41286D4124003A1CEF /* OverdueListItemView.swift */,
+				A436EB46286D4142003A1CEF /* Tasks.swift */,
+				A436EB4B286D4179003A1CEF /* buildArray.swift */,
+				A436EB50286D419C003A1CEF /* dateFunctions.swift */,
 			);
 			path = "House-Cleaning-2";
 			sourceTree = "<group>";
@@ -128,6 +167,14 @@
 				A436EB03286D3C70003A1CEF /* Info.plist */,
 			);
 			path = "House-Cleaning-2UITests";
+			sourceTree = "<group>";
+		};
+		A436EB12286D3CBD003A1CEF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A4C8FA432870A10E00400B07 /* test_json.json */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +281,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A436EAEC286D3C70003A1CEF /* Preview Assets.xcassets in Resources */,
+				A4C8FA442870A10E00400B07 /* test_json.json in Resources */,
 				A436EAE9286D3C70003A1CEF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,7 +307,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A436EB38286D40AC003A1CEF /* HomeView.swift in Sources */,
+				A436EB1A286D3F86003A1CEF /* CheckboxView.swift in Sources */,
+				A436EB1F286D3FD9003A1CEF /* DetailView.swift in Sources */,
 				A436EAE7286D3C65003A1CEF /* ContentView.swift in Sources */,
+				A436EB47286D4142003A1CEF /* Tasks.swift in Sources */,
+				A436EB51286D419C003A1CEF /* dateFunctions.swift in Sources */,
+				A436EB4C286D4179003A1CEF /* buildArray.swift in Sources */,
+				A436EB29286D402F003A1CEF /* DueOtherListItemView.swift in Sources */,
+				A436EB24286D400B003A1CEF /* DueNext7DaysListItemView.swift in Sources */,
+				A436EB42286D4124003A1CEF /* OverdueListItemView.swift in Sources */,
+				A436EB2E286D405D003A1CEF /* DueTodayListItemVIew.swift in Sources */,
+				A436EB33286D407D003A1CEF /* DynoListView.swift in Sources */,
+				A436EB3D286D40FA003A1CEF /* NavigationTabsView.swift in Sources */,
 				A436EAE5286D3C65003A1CEF /* House_Cleaning_2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
