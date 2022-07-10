@@ -26,7 +26,7 @@ struct ContentView: View {
 							  Button(action: {
 								print("Settings")
 							  }) {
-								Label("Send", systemImage: "gearshape.fill")
+								Label("Settings", systemImage: "gearshape.fill")
 							  }
 							}
 				}
