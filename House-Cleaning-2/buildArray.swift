@@ -20,3 +20,16 @@ func buildArray(status:Array<String>) -> Array<User> {
 	print(itemArray)
 	return itemArray
 }
+
+func buildStatusArray(filterChecks: Array<Bool>) -> Array<String> {
+    var statuses = ["Due: overdue", "Due: today", "Due: within 7 days", "Due: other"]
+    var statusArray: Array<String> = Array()
+    var count = 0
+    for checked in filterChecks {
+        if checked {
+            statusArray.append(statuses[count])
+        }
+        count += 1
+    }
+    return statusArray
+}
