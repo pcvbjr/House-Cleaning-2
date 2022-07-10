@@ -21,13 +21,12 @@ struct DetailView: View {
 				showFilter.toggle()
 			}) {
 			  Label("Filter", systemImage: "line.3.horizontal.decrease.circle")
-			}
+			} //button, label
 
 			
 			if showFilter {
 				FilterView(checked: $filterChecks)
-				}
-			}
+				} //if
 			
 
 		
@@ -62,10 +61,10 @@ struct DetailView: View {
 			}
 			Spacer()
 			
-		}
+		} //VStack
 	
-	}
-}
+	} //var body
+} //DetailView
 
 struct DetailView_Previews: PreviewProvider {
 	static var previews: some View {
