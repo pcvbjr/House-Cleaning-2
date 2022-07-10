@@ -22,7 +22,7 @@ struct FilterCheckboxView: View {
                 }
                 .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
             Text(status)
-                .font(.title2)
+                .font(.title3)
             Spacer()
         }
     }
